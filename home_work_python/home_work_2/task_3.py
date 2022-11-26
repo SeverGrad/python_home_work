@@ -13,4 +13,4 @@ for i in range(0, n):
     f = (1 + 1 / i)**i
     lst.append(round(f, 2))
 lst_1 = lst
-print(lst_1, "->", sum(lst_1))
+print("Для n =", n, lst_1, "->", sum(lst_1))
